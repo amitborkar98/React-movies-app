@@ -7,7 +7,13 @@ class Header extends Component{
     render(){
         return(
             <div>
-                <Button variant="contained" color="default">Log in</Button>
+                <header className="app-header">
+                    <div className="login-button">
+                        <Button variant="contained" color="default">
+                            Login
+                        </Button>
+                    </div>
+                </header>
             </div>
         )
         

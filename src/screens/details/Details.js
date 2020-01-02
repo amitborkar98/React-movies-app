@@ -6,7 +6,6 @@ import Typography from '@material-ui/core/Typography';
 import './Details.css';
 import Home from '../home/home';
 import YouTube from 'react-youtube';import GridList from '@material-ui/core/GridList';
-import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
@@ -89,7 +88,7 @@ class Details extends Component {
         }
         return (
             <div className="details">
-                <Header />
+               <Header showBookShowButton="true" />
                 <div className="back">
                     <Typography onClick={this.backToHomeHandler}>
                         &#60; Back to Home
